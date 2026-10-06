@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: rgb(245, 245, 250);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
@@ -12,21 +12,22 @@ body{
     text-decoration: none;
 }
 h1{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
-    color: #f1eee6ee;
+    color: rgb(157, 157, 179);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header {
     display: flex;
     justify-content: space-between;
-    padding: 40px;
-    background-color: rgb(20, 1, 117);;
+    padding: 20px;
+    background-color: rgb(20, 1, 117);
+    align-items: center;
 
 }
 header img{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     object-fit: cover;
 }
 
@@ -51,14 +52,14 @@ header img{
 }
 #Apresentaçao img {
     width: 100%;
-    height: 600px;
+    height:550px;
     border-radius: 12px;
 
 }
 #Apresentaçao h2{
     font-size: 30px;
     font-weight: 700;
-    color: #ffaa00ee;
+    color:#2690faee;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #texto{
@@ -89,12 +90,13 @@ header img{
 .servicos-cards {
     width: 500px;
     height: auto;
-    border-radius: 12px;
-    background-color: rgb(194, 194, 202);
+    border-radius: 10px;
+    background-color: rgb(157, 157, 179);
     padding: 10px;
 
 }
 .servicos-cards h3 {
+    text-transform: Tuppercase;
     font-size: 20px;
     font-weight: 700;
     color: #010642ee;
@@ -135,20 +137,27 @@ padding: 20px;
     text-transform: uppercase;
 }
 
+#section-table {
+    margin: 20px;
+    padding: 20px;
+}
 table{
     width: 100%;
-    max-width: 800px;
     border-collapse: collapse;
     margin-top: 10px;
 }
 
+
 td {
-    border: 1px solid #fff;
+    border: 2px solid #090155;
     text-align: center;
+    color: #090155;
 }
 
 th {
-    border: 1px solid #fff;
+    color: #090155;
+    text-transform: uppercase;
+    border: 2px solid  #090155;
 }
 
 #section-table {
